@@ -40,13 +40,18 @@ h1,h4 {
     align-items: center;
     font-size: 30px;
     font-weight: bold;
+    cursor: pointer;
 }
 .key.active {
-    border: 2px solid #FF0;
-    color: #FF0;
+    background-color: rgb(14, 241, 45);
+    background-color: rgb(14, 241, 45);
     transform: translateY(-10px);
     transition: transform 0.1s ease;
 }
+.key:hover {
+    background-color: rgb(14, 241, 45);
+    transform: translateY (-3px);
+} 
 
 .composer {
     width: 260px;
